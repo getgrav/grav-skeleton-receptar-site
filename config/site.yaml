@@ -1,5 +1,5 @@
 title: Receptar
-description: "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+description: "A very delicious blog."
 author:
   name: Grav
   email: 'joe@test.com'
@@ -12,6 +12,23 @@ blog:
 metadata:
     description: 'Receptar is a minimal Theme designed for blogger, converted to Grav.'
 taxonomies: [category,tag,month]
+
+summary:
+  size: 100
+
+social:
+  - text: facebook
+    url: "http://www.facebook.com/getgrav"
+  - text: twitter
+    url: "http://www.twitter.com/getgrav"
+  - text: google-plus
+    url: "http://www.plus.google.com/getgrav"
+  - text: linkedin
+    url: "http://www.linkedin.com/getgrav"
+  - text: youtube-play
+    url: "http://www.youtube.com/getgrav"
+  - text: home
+    url: "http://www.getgrav.org"
 
 menu:
   - url: error
