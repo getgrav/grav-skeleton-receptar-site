@@ -2,12 +2,21 @@
 title: Beaver Builder post
 category: Cakes
 difficulty: simple
-S
+description:
+  - option: Dificulty:
+    value: simple
+  - option: Serving:
+    value: 4
+  - option: Preparation time:
+    value: 1 hour 30 minutes
+  - option: What we need:
+    value: oven, tart form, jar
 
 date: 17:34 01/01/2015
 taxonomy:
-    category: blog
-    tag: [cakes]
+    category: Cakes
+    tag: [cakes, food, sugar, milk]
+ingredients_title: Ingredients
 ingredients:
   - title: Corpus:
     list:

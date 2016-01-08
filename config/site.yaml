@@ -15,6 +15,7 @@ taxonomies: [category,tag,month]
 
 summary:
   size: 100
+  striptags: true
 
 social:
   - text: facebook
