@@ -14,8 +14,8 @@ ingredients:
       - Lorem ipsum, 200g
       - Lorem ipsum, 200g
 taxonomy:
-    category: blog
-    tag: [journal, photography]
+    category: Cakes
+    tag: [cakes, food]
 ---
 
 

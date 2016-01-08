@@ -7,7 +7,7 @@ author:
   url: "#"
   gravatar: hexplor@gmail.com
 taxonomy:
-    category: blog
+    category: Meat
     tag: [journal, photography]
 vimeo: https://player.vimeo.com/video/41156115
 ---
