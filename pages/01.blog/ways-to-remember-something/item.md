@@ -1,12 +1,6 @@
 ---
 title: Ways to remember something
 date: 14:55 08/26/2014
-author:
-  name: Tasha Maxwell
-  description: "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
-  url: "#"
-  gravatar:
-  logo: x_logo.jpg
 taxonomy:
     category: blog
     tag: [journal, photography]
