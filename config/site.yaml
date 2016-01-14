@@ -42,8 +42,6 @@ slider:
     title: Pumpkin recipe
     url: "#"
 
-
-
 menu:
   - url: error
     text: Error Page

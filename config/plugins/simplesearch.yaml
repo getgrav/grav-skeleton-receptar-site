@@ -1,8 +1,6 @@
-enabled: true
-built_in_css: true
 route: /search
 template: simplesearch_results
-filters: []
+filters: 
 order:
     by: date
     dir: desc
