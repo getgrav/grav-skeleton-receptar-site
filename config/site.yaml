@@ -17,6 +17,9 @@ summary:
   size: 100
   striptags: true
 
+# Image must be uploaded to your theme /images/ directory.
+global_featured_image: featured.jpg
+
 social:
   - text: facebook
     url: "http://www.facebook.com/getgrav"
