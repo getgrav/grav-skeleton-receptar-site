@@ -8,6 +8,6 @@ author:
   url: http://getgrav.org
 homepage: https://github.com/getgrav/grav-skeleton-receptar-blog
 demo: http://demo.getgrav.org/receptar-skeleton
-keywords: receptar, skeleton, single, page, modular, blog
+keywords: receptar, skeleton, cookbook, split-screen, fast, responsive, html5, css3
 bugs: https://github.com/getgrav/grav-skeleton-receptar-blog/issues
-license: CC BY 3.0
+license: GPL2
