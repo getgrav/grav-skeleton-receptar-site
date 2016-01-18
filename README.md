@@ -2,16 +2,16 @@
 
 ![Receptar](assets/readme_1.png)
 
-Receptar is simple, modern, responsive, high-DPI, fully customizable, stylish blog Grav theme.
+Receptar is simple, modern, responsive, high-DPI, fully customizable, stylish blog Grav theme by [WebMan Design](http://themedemos.webmandesign.eu/).
 It features split-screen book-like design inspired by a modern cook book with emphasize on beautiful imagery and typography.
 
 # Features
 
 * Navigation menu included
-* Clean Layout
-* Blog Layout
-* Minimalistic
-* FeedBurner support
+* Split-screen book-like design
+* Collapsible sidebar
+* Blog Layout with support for recipes
+* Beautiful imagery and typography.
 * Social Sharing
 * Browser Compatibility
 * Supports YouTube
@@ -45,3 +45,88 @@ To install  **just** the theme:
 ```
 $ bin/gpm install receptar
 ```
+---
+
+## Configuration
+
+In Receptar, you have few unique features which you can configure easily:
+
+### Adding recipes to blog page
+
+In item.md page header you have to add something like that:
+
+```yaml
+ingredients_title: Ingredients
+ingredients:
+  - title: Corpus:
+    list:
+      - Lorem ipsum, 200g
+      - Dolor sit amet 20dl
+      - 80g sugar
+      - 1 yolk
+      - Salt
+      - Water 0.5l
+      - Milk 1l
+  - title: Corpus:
+    list:
+      - Lorem ipsum, 200g
+      - Dolor sit amet 20dl
+      - 80g sugar
+      - 1 yolk
+      - Salt
+      - Water 0.5l
+      - Milk 1l
+```
+
+### Adding advanced description
+
+Add something like that to page header:
+
+```yaml
+description:
+  - option: Dificulty:
+    value: simple
+  - option: Serving:
+    value: 4
+  - option: Preparation time:
+    value: 1 hour 30 minutes
+  - option: What we need:
+    value: oven, tart form, jar
+```
+
+### Adding video and SoundCloud
+
+You have to add direct iframe url to page header. For example for video files, it's going to be:
+
+```yaml
+vimeo: https://player.vimeo.com/video/63451562?title=0&amp;byline=0&amp;portrait=0
+```
+
+### Slideshow
+
+Add or modify this code in site.yaml:
+
+```yaml
+slider:
+  - image: slide3.jpg
+    title: A very delicious blog
+    url: "#"
+  - image: slide1.jpg
+    title: Duis autem
+    url: "#"
+  - image: slide2.jpg
+    title: Pumpkin recipe
+    url: "#"
+```
+
+Slideshow images must be placed inside user theme **images/slideshow** directory.
+
+### Featured image
+
+To customize featured image, add or modify following variable in site.yaml:
+
+```yaml
+global_featured_image: featured.jpg
+```
+
+Featured images must be placed inside user theme **images** directory. Featured images is used on empty blog image posts and on posts without image (due to split-screen layout concept).
