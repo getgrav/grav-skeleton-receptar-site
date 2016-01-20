@@ -9,6 +9,28 @@ pages:
   markdown:
     extra: true
 
+languages:
+  supported:
+    - en
+    - de
+    - es
+    - cs
+    - fi
+    - fr
+    - it
+    - nb
+    - nl
+    - el
+    - pt
+    - ro
+    - ru
+    - pl
+  http_accept_language: true
+  home_redirect:
+    include_lang: true
+    include_route: false
+  session_store_active: false
+
 cache:
   enabled: false
   check:

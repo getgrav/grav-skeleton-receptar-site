@@ -23,6 +23,7 @@ It features split-screen book-like design inspired by a modern cook book with em
 * Archives plugin support
 * JSComments plugin support
 * Comments and Forms plugin support
+* Basic translations for 14 languages
 
 ## Basic Setup for a new Grav site
 
@@ -50,6 +51,10 @@ $ bin/gpm install receptar
 ## Configuration
 
 In Receptar, you have few unique features which you can configure easily:
+
+### Translations
+
+Take a look at theme's **language.yaml**. Polish and English versions contains all variables which you can translate to your language.
 
 ### Adding recipes to blog page
 
@@ -80,7 +85,7 @@ ingredients:
 
 ### Adding advanced description
 
-Add something like that to page header:
+Add code like that to page header:
 
 ```yaml
 description:
@@ -96,7 +101,7 @@ description:
 
 ### Adding video and SoundCloud
 
-You have to add direct iframe url to page header. For example for video files, it's going to be:
+You have to add direct iframe url to page header. For example for Vimeo files, it's going to be:
 
 ```yaml
 vimeo: https://player.vimeo.com/video/63451562?title=0&amp;byline=0&amp;portrait=0
