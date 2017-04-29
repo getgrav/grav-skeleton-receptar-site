@@ -1,3 +1,9 @@
+# v1.2.0
+## 04/29/2017
+
+1. [](#new)
+    * Added HyperComment to JsComments
+
 # v1.1.0
 ## 01/20/2016
 

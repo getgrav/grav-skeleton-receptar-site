@@ -24,3 +24,8 @@ providers:
     share: true
     widget: false
     lang: "en"
+
+  hypercomments:
+    widget_id: 0
+    show_count: false
+    social: 'vk, odnoklassniki, yandex, mailru, google, livejournal, facebook, twitter, tumblr'
