@@ -1,0 +1,6 @@
+[submodule "plugins/jscomments"]
+	path = plugins/jscomments
+	url = https://github.com/Neiromaster/grav-plugin-jscomments.git
+[submodule "themes/receptar"]
+	path = themes/receptar
+	url = https://github.com/Neiromaster/grav-theme-receptar.git
