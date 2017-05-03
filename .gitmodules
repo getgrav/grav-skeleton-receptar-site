@@ -1,0 +1,45 @@
+[submodule "plugins/jscomments"]
+	path = plugins/jscomments
+	url = https://github.com/Neiromaster/grav-plugin-jscomments.git
+[submodule "themes/receptar"]
+	path = themes/receptar
+	url = https://github.com/Neiromaster/grav-theme-receptar.git
+[submodule "plugins/admin"]
+	path = plugins/admin
+	url = https://github.com/getgrav/grav-plugin-admin.git
+[submodule "plugins/archives"]
+	path = plugins/archives
+	url = https://github.com/getgrav/grav-plugin-archives.git
+[submodule "plugins/comments"]
+	path = plugins/comments
+	url = https://github.com/getgrav/grav-plugin-comments.git
+[submodule "plugins/email"]
+	path = plugins/email
+	url = https://github.com/getgrav/grav-plugin-email.git
+[submodule "plugins/error"]
+	path = plugins/error
+	url = https://github.com/getgrav/grav-plugin-error.git
+[submodule "plugins/feed"]
+	path = plugins/feed
+	url = https://github.com/getgrav/grav-plugin-feed.git
+[submodule "plugins/form"]
+	path = plugins/form
+	url = https://github.com/getgrav/grav-plugin-form.git
+[submodule "plugins/login"]
+	path = plugins/login
+	url = https://github.com/getgrav/grav-plugin-login.git
+[submodule "plugins/pagination"]
+	path = plugins/pagination
+	url = https://github.com/getgrav/grav-plugin-pagination.git
+[submodule "plugins/problems"]
+	path = plugins/problems
+	url = https://github.com/getgrav/grav-plugin-problems.git
+[submodule "plugins/relatedpages"]
+	path = plugins/relatedpages
+	url = https://github.com/getgrav/grav-plugin-relatedpages.git
+[submodule "plugins/simplesearch"]
+	path = plugins/simplesearch
+	url = https://github.com/getgrav/grav-plugin-simplesearch.git
+[submodule "plugins/taxonomylist"]
+	path = plugins/taxonomylist
+	url = https://github.com/getgrav/grav-plugin-taxonomylist.git
